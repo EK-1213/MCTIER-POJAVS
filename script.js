@@ -32,9 +32,9 @@ const players = [
   },
           {
     nick: "qrrstr",
-    points: 56,
+    points: 71,
     skin: "https://render.crafty.gg/3d/bust/qrrstr",
-    tiers: { Uhc: "LT5", Sword: "LT5", NethPot: "LT2", Axe: " LT5", Smp: "LT5", DiaPot: "LT5", Crystal: "HT2", Mazo: "LT5" }
+    tiers: { Uhc: "LT5", Sword: "LT5", NethPot: "LT2", Axe: " LT5", Smp: "LT5", DiaPot: "LT5", Crystal: "LT1", Mazo: "LT5" }
   },
         {
     nick: "ItzRealMeBS900",
@@ -106,5 +106,6 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
