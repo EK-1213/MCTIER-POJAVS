@@ -74,9 +74,9 @@ const players = [
   },
         {
     nick: "ItzRealMeBS900",
-    points: 30,
+    points: 55,
     skin: "https://render.crafty.gg/3d/bust/ItzRealMeBS900 ",
-    tiers: { Uhc: "HT4", Sword: "LT4", NethPot: "LT4", Crystal: "LT2" }
+    tiers: { Uhc: "HT4", Sword: "LT4", NethPot: "LT4", Crystal: "LT1" }
   }
 ];
 // Calcular ranking global
@@ -142,6 +142,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
