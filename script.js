@@ -1,5 +1,17 @@
 // Lista de jugadores
 const players = [
+            {
+    nick: "santicpvp",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/santicpvp",
+    tiers: { Uhc: "LT5" }
+  },
+            {
+    nick: "hku8",
+    points: 3,
+    skin: "https://render.crafty.gg/3d/bust/hku8",
+    tiers: { Uhc: "LT4", Crystal: "LT3" }
+  },
            {
     nick: "piggadestroyer",
     points: 1,
@@ -154,6 +166,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
