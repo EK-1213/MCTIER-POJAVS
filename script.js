@@ -2,9 +2,9 @@
 const players = [
             {
     nick: "santicpvp",
-    points: 1,
+    points: 2,
     skin: "https://render.crafty.gg/3d/bust/santicpvp",
-    tiers: { Uhc: "LT5" }
+    tiers: { Uhc: "LT5", Sword: "LT5" }
   },
             {
     nick: "hku8",
@@ -166,6 +166,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
