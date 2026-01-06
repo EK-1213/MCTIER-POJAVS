@@ -1,5 +1,11 @@
 // Lista de jugadores
 const players = [
+             {
+    nick: "PojavPlayer_ ",
+    points: 38,
+    skin: "https://render.crafty.gg/3d/bust/PojavPlayer_ ",
+    tiers: { Uhc: "HT4", Sword: "LT3", NethPot: "LT3", Axe: " LT3", Smp: "LT3", Crystal: "HT3", }
+  },
             {
     nick: "santicpvp",
     points: 2,
@@ -92,15 +98,15 @@ const players = [
   },
           {
     nick: "qrrstr",
-    points: 71,
+    points: 81,
     skin: "https://render.crafty.gg/3d/bust/qrrstr",
-    tiers: { Uhc: "LT5", Sword: "LT5", NethPot: "LT2", Axe: " LT5", Smp: "LT5", DiaPot: "LT5", Crystal: "LT1", Mazo: "LT5" }
+    tiers: { Uhc: "LT5", Sword: "LT5", NethPot: "HT2", Axe: " LT5", Smp: "LT5", DiaPot: "LT5", Crystal: "RLT1", Mazo: "LT5" }
   },
         {
-    nick: "ItzRealMeBS900",
-    points: 55,
+    nick: "Macro0Q",
+    points: 73,
     skin: "https://render.crafty.gg/3d/bust/ItzRealMeBS900 ",
-    tiers: { Uhc: "HT4", Sword: "LT4", NethPot: "LT4", Crystal: "LT1" }
+    tiers: { Uhc: "HT4", Sword: "LT4", NethPot: "LT4", Crystal: "HT1" }
   }
 ];
 // Calcular ranking global
@@ -166,6 +172,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
