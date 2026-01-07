@@ -1,5 +1,11 @@
 // Lista de jugadores
 const players = [
+   {
+    nick: "reparada",
+    points: 4,
+    skin: "https://render.crafty.gg/3d/bust/reparada",
+    tiers: { Uhc: "HT4" }
+  },
              {
     nick: "PojavPlayer_ ",
     points: 38,
@@ -172,6 +178,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
