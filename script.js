@@ -4,7 +4,7 @@ const players = [
     nick: "RatonGordoo",
     points: 6,
     skin: "https://render.crafty.gg/3d/bust/RatonGordoo",
-    tiers: { Crystal: "LT3" }
+    tiers: { NethPot: "LT3", Crystal: "LT3" }
   },
     {
     nick: "iFromFabriii",
@@ -50,9 +50,9 @@ const players = [
   },
             {
     nick: "santicpvp",
-    points: 4,
+    points: 6,
     skin: "https://render.crafty.gg/3d/bust/santicpvp",
-    tiers: { Uhc: "HT5", Sword: "LT5", Crystal: "LT5" }
+    tiers: { Uhc: "HT5", Sword: "LT5", Crystal: "LT4" }
   },
             {
     nick: "hku8",
@@ -214,6 +214,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
