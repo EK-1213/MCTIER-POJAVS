@@ -8,9 +8,9 @@ const players = [
   },
     {
     nick: "RatonGordoo",
-    points: 16,
+    points: 18,
     skin: "https://render.crafty.gg/3d/bust/RatonGordoo",
-    tiers: { NethPot: "LT3", Crystal: "HT3" }
+    tiers: { NethPot: "LT3", Crystal: "HT3", Mazo: "HT5" }
   },
     {
     nick: "iFromFabriii",
@@ -220,6 +220,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
