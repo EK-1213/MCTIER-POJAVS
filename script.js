@@ -1,5 +1,11 @@
 // Lista de jugadores
 const players = [
+      {
+    nick: "Reymer_mc",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/Reymer_mc",
+    tiers: { Mazo: "LT5"  }
+  },
      {
     nick: "PojavAgresivo",
     points: 6,
@@ -220,6 +226,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
