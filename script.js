@@ -1,5 +1,11 @@
 // Lista de jugadores
 const players = [
+       {
+    nick: "7Dzzzz",
+    points: 2,
+    skin: "https://render.crafty.gg/3d/bust/7Dzzzz",
+    tiers: { Mazo: "HT5" }
+  },
       {
     nick: "Reymer_mc",
     points: 2,
@@ -62,9 +68,9 @@ const players = [
   },
             {
     nick: "santicpvp",
-    points: 6,
+    points: 10,
     skin: "https://render.crafty.gg/3d/bust/santicpvp",
-    tiers: { Uhc: "HT5", Sword: "LT5", Crystal: "LT4" }
+    tiers: { Uhc: "HT5", Sword: "HT4", Crystal: "HT4" }
   },
             {
     nick: "hku8",
@@ -226,6 +232,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
