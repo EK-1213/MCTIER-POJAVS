@@ -1,5 +1,11 @@
 // Lista de jugadores
 const players = [
+        {
+    nick: "PerroUltraGuaton",
+    points: 4,
+    skin: "https://render.crafty.gg/3d/bust/PerroUltraGuaton",
+    tiers: { NethPot: "HT4"  }
+  },
        {
     nick: "7Dzzzz",
     points: 2,
@@ -232,6 +238,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
