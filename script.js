@@ -68,9 +68,9 @@ const players = [
   },
              {
     nick: "PojavPlayer_ ",
-    points: 8,
+    points: 18,
     skin: "https://render.crafty.gg/3d/bust/PojavPlayer_ ",
-    tiers: { Uhc: "HT4", Crystal: "HT4", }
+    tiers: { Uhc: "HT4", Sword: "HT4", NethPot: "LT4", SMP: "LT4", Crystal: "HT4", }
   },
             {
     nick: "santicpvp",
@@ -238,6 +238,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
