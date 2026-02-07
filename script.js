@@ -1,5 +1,23 @@
 // Lista de jugadores
 const players = [
+         {
+    nick: "Dayana_00",
+    points: 4,
+    skin: "https://render.crafty.gg/3d/bust/Dayana_00",
+    tiers: { Sword: "LT4", Axe: "LT5" }
+  },
+         {
+    nick: "KnockWkithePerro",
+    points: 2,
+    skin: "https://render.crafty.gg/3d/bust/KnockWkithePerro",
+    tiers: { NethPot: "HT5" }
+  },
+         {
+    nick: "mundomc",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/mundomc",
+    tiers: { Mazo: "LT5"  }
+  },
         {
     nick: "PerroUltraGuaton",
     points: 4,
@@ -238,6 +256,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
