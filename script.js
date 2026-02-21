@@ -1,5 +1,11 @@
 // Lista de jugadores
 const players = [
+          {
+    nick: "Tinnch0",
+    points: 1,
+    skin: "https://render.crafty.gg/3d/bust/Tinnch0",
+    tiers: { Mazo: "LT5"  }
+  },
          {
     nick: "Dayana_00",
     points: 4,
@@ -256,6 +262,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
