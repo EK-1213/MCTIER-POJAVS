@@ -194,9 +194,9 @@ const players = [
   },
         {
     nick: "Macro0Q",
-    points: 74,
+    points: 84,
     skin: "https://render.crafty.gg/3d/bust/ItzRealMeBS900 ",
-    tiers: { Uhc: "LT3", Sword: "LT4", NethPot: "LT4", Crystal: "HT1", Mazo: "HT5" }
+    tiers: { Uhc: "LT3", Sword: "HT4", NethPot: "HT4", Axe: "HT5", SMP: "HT4", DiaPot: "HT5", Crystal: "HT1", Mazo: "HT5" }
   }
 ];
 // Calcular ranking global
@@ -262,6 +262,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
