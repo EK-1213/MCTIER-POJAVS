@@ -195,7 +195,7 @@ const players = [
         {
     nick: "Macro0Q",
     points: 84,
-    skin: "https://render.crafty.gg/3d/bust/ItzRealMeBS900 ",
+    skin: "https://render.crafty.gg/3d/bust/Macro0Q ",
     tiers: { Uhc: "LT3", Sword: "HT4", NethPot: "HT4", Axe: "HT5", SMP: "HT4", DiaPot: "HT5", Crystal: "HT1", Mazo: "HT5" }
   }
 ];
@@ -262,6 +262,7 @@ document.getElementById("search").addEventListener("input", (e) => {
 // Render inicial
 
 renderPlayers(rankedPlayers);
+
 
 
 
