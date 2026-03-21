@@ -1,7 +1,7 @@
 // Lista de jugadores
 const players = [
           {
-    nick: "Hasta el momento no habran jugadores ugu",
+    nick: "Hasta el momento no habran jugadores xd",
     points: 0,
     skin: "https://render.crafty.gg/3d/bust/Neziepls",
     tiers: { UHC: "LT5" }
